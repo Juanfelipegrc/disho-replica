@@ -1,0 +1,23 @@
+$enable-negative-margins: true;
+
+
+
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
+
+
+$custom-colors: (
+    "middle-gray" : #e6e6e6,
+    "litle-gray" : #f5f6f6,
+    "litle-green" : #7EB23D,
+    "dark-blue" : #264653,
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+
+
+
+@import "bootstrap/scss/bootstrap";
+
