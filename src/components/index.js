@@ -30,6 +30,7 @@ export * from './categories/ProductCategories';
 export * from './SideBarBlog';
 export * from './searchResults/ProductSearchResult';
 export * from './ScrollButton';
+export * from './Counter';
 
 
 // HOME 1

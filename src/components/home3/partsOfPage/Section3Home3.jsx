@@ -2,6 +2,7 @@ import React from 'react'
 import { onlyPears, shapeGreen } from '../../../assets'
 import { ListProductsSide } from '../../ListProductsSide'
 import { ListProductsHome3 } from '../ListProductsHome3'
+import { Counter } from '../../Counter'
 
 export const Section3Home3 = () => {
   return (
@@ -10,9 +11,12 @@ export const Section3Home3 = () => {
           <div className="container-fluid">
             <div className="container-fluid container-lg mt-4 ">
               <div className="row d-flex justify-content-center px-0">
-                  <div className='col-12 col-md-4 col-lg-4 d-flex flex-column align-items-center p-0 pe-0 pe-md-5 pe-lg-5'>
-                    <div className="col-12 m-2 h-100 bg-white shadow-lg border rounded-4 py-3">
-                      <h3 className='text-center  mb-3'>This Week's Hot Offer</h3>
+                  <div className='col-12 col-md-4 col-lg-4 d-flex flex-column align-items-center p-0 pe-0 pe-md-3 pe-lg-5'>
+                    <div className="col-12 m-2 h-100 d-flex flex-column align-items-center bg-white shadow-lg border rounded-4 py-3">
+                      <h3 className='text-center mb-3'>This Week's Hot Offer</h3>
+                      <div className="col-11 col-md-11 col-lg-10">
+                        <Counter/>
+                      </div>
                       <ListProductsSide/>
                   </div>
                   </div>
