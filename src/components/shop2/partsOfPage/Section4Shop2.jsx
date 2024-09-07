@@ -2,7 +2,7 @@ import React from 'react'
 import { onlyPears, shapeGreen } from '../../../assets'
 import { useNavigate } from 'react-router-dom'
 
-export const Section4Shop1 = () => {
+export const Section4Shop2 = () => {
 
     const navigate = useNavigate();
 

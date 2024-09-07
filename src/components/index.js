@@ -67,11 +67,11 @@ export * from './home3/partsOfPage/Section7Home3';
 export * from './home3/partsOfPage/Section8Home3';
 
 // SHOP 2
-export * from './shop2/partsOfPage/Section1Shop1';
-export * from './shop2/partsOfPage/Section2Shop1';
-export * from './shop2/partsOfPage/Section3Shop1';
-export * from './shop2/partsOfPage/Section4Shop1';
-export * from './shop2/partsOfPage/Section5Shop1';
+export * from './shop2/partsOfPage/Section1Shop2';
+export * from './shop2/partsOfPage/Section2Shop2';
+export * from './shop2/partsOfPage/Section3Shop2';
+export * from './shop2/partsOfPage/Section4Shop2';
+export * from './shop2/partsOfPage/Section5Shop2';
 
 // SHOP 3
 export * from './shop3/partsOfPage/Section1Shop3';

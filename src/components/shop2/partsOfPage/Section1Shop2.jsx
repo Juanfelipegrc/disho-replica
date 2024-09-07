@@ -2,7 +2,7 @@ import React from 'react'
 import { ListProducts1 } from '../ListProducts1'
 import { icon1Shop2, icon2Shop2, icon3Shop2, icon4Shop2, icon5Shop2, icon6Shop2, icon7Shop2, icon8Shop2 } from '../../../assets'
 
-export const Section1Shop1 = () => {
+export const Section1Shop2 = () => {
   return (
     <>
     

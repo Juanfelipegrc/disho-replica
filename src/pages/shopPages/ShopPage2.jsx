@@ -1,5 +1,5 @@
 import React from 'react'
-import { Section1Shop1, Section2Shop1, Section3Shop1, Section4Shop1, Section5Shop1 } from '../../components'
+import { Section1Shop2, Section2Shop2, Section3Shop2, Section4Shop2, Section5Shop2 } from '../../components'
 import { Link } from 'react-router-dom'
 
 export const ShopPage2 = () => {
@@ -18,19 +18,19 @@ export const ShopPage2 = () => {
             </nav>
           </div>
         </div>
-        <Section1Shop1/>
+        <Section1Shop2/>
 
         {/* SECTION 2 */}
-          <Section2Shop1/>
+          <Section2Shop2/>
 
         {/* SECTION 3 */}
-          <Section3Shop1/>
+          <Section3Shop2/>
         
         {/* SECTION 4 */}
-          <Section4Shop1/>
+          <Section4Shop2/>
         
         {/* SECTION 5 */}
-          <Section5Shop1/>
+          <Section5Shop2/>
       </div>
       
     

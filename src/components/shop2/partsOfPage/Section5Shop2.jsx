@@ -1,8 +1,8 @@
 import React from 'react'
-import {JoinOurInstagram} from '../../../components'
+import {JoinOurInstagram} from '../..'
 
 
-export const Section5Shop1 = () => {
+export const Section5Shop2 = () => {
   return (
     <>
     

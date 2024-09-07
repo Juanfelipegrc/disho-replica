@@ -1,7 +1,7 @@
 import React from 'react'
 import { SliderWatermelonsHome2 } from '../../SliderWatermelonsHome2'
 
-export const Section2Shop1 = () => {
+export const Section2Shop2 = () => {
   return (
     <>
     

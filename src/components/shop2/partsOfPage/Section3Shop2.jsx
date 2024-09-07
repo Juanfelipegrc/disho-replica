@@ -3,7 +3,7 @@ import { ListProductsSide } from '../../ListProductsSide'
 import { ListProductsHome1 } from '../../home1/ListProductsHome1'
 import { Counter } from '../../Counter'
 
-export const Section3Shop1 = () => {
+export const Section3Shop2 = () => {
   return (
     <>
     
