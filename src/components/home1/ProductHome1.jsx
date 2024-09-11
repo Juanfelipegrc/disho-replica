@@ -10,7 +10,7 @@ export const ProductHome1 = ({img = [], name, price, discountPrice = '', additio
 
 
     useEffect(() => {
-        const cards = document.querySelectorAll('.card');
+        const cards = document.querySelectorAll('.card.product-side-hover');
         cards.forEach(card => {
             card.addEventListener('mouseover', () => {
                 const buttons = card.querySelector('.position-absolute');

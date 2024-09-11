@@ -10,7 +10,7 @@ export const ProductSide = ({img = [], name, price, discountPrice = '', addition
 
 
     useEffect(() => {
-        const cards = document.querySelectorAll('.card');
+        const cards = document.querySelectorAll('.card.product-side-hover');
         cards.forEach(card => {
             card.addEventListener('mouseover', () => {
                 const buttons = card.querySelector('.position-absolute');
@@ -50,7 +50,7 @@ export const ProductSide = ({img = [], name, price, discountPrice = '', addition
   return (
     <>
         <div className="container-fluid p-3">
-            <div className="container-fluid card border rounded-5 product-side-hover w-100">
+            <div className="container-fluid card product-side-hover border rounded-5 w-100">
                 <div className="container-fluid position-relative p-0 m-0 d-flex justify-content-center">
                     <img className='w-100 h-100 object-fit-cover border-0 rounded-5' src={img[0]} alt="" />
                     <div className="position-absolute d-none d-flex justify-content-center col-12 bottom-0 animate__animated animate__faster mb-4">

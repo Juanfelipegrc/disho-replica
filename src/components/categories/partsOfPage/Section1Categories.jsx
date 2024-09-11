@@ -19,7 +19,7 @@ export const Section1Categories = () => {
   return (
     <>
     
-        <div className="container-fluid d-flex justify-content-center align-items-center p-0 m-0 bg-white">
+        <div className="container-fluid d-flex justify-content-center align-items-center p-3 p-md-0 p-lg-0 m-0 bg-white">
             <div className="row col-12 d-flex justify-content-center align-items-center">
                 <div  className="p-0 col-4 col-md col-lg-1" >
                     <div role='button' onClick={() => onNavigateCategory('Uncategorized')} className="col-12 overflow-hidden border border-0 rounded-2 button-category" >
