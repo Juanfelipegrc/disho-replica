@@ -7,7 +7,7 @@ export const BussinesInfo = () => {
     
         <div className="container-fluid p-0">
             <div className="row col-12 w-100 d-flex flex-column flex-md-row flex-lg-row justify-content-center m-0 m-md-0 m-lg-0">
-                <div className='col-12 col-md-4 col-lg-4 p-0 ps-0 ps-md-3 ps-lg-3'>
+                <div className='col-12 col-md-4 col-lg-4 p-0'>
                     <div className="col-12 h-100 bg-white border rounded-4 shadow-lg px-0 d-flex justify-content-center m-0 my-2 py-3">
                         <div className="row col-12 d-flex justify-content-center align-items-center">
                         <div className="col-12 col-md-1 col-lg-1 d-flex justify-content-center
