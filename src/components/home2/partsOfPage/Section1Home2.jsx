@@ -86,7 +86,7 @@ export const Section1Home2 = () => {
                <div className=' ps-md-2 ps-lg-2 col-12 col-lg-4 p-lg-0 mt-2 mt-md-0 mt-lg-0 pt-0 pt-md-2 pt-lg-0'>
                 <div className="container-fluid h-100 m-0 col-12">
                         <div className="row h-100 d-flex">
-                            <div className='p-0 p-lg-3 pt-0'>
+                            <div className='p-0 p-lg-3 pt-0 pt-lg-0'>
                                 <div className="col-12 align-self-start card shadow border rounded-5 p-0 pt-5">
                                     <img className='w-100 align-self-end border border-0 rounded-5 card-img' src={lentisBanner} alt="" />
                                     <div className="card-img-overlay m-3">
@@ -95,7 +95,7 @@ export const Section1Home2 = () => {
                                     </div> 
                                 </div>
                             </div>
-                            <div className="p-0 p-lg-3 pb-0">
+                            <div className="p-0 p-lg-3 pb-0 pb-lg-0">
                                 <div className="col-12 align-self-end card shadow border rounded-5 mt-2 mt-lg-0 p-0">
                                     <img className='w-100 border border-0 rounded-5 card-img' src={berrieCake} alt="" />
                                     <div className="card-img-overlay m-3">
