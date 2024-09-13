@@ -39,7 +39,7 @@ export const Section2Contact = () => {
 
                             <div className="col-12 mt-3">
                                 <div className="row d-flex flex-column flex-md-row flex-lg-row align-items-center">
-                                    <div className='col-1 container-fluid d-flex m-0 p-0 mb-2 mb-md-0 mb-lg-0'>
+                                    <div className='col-2 col-md-1 col-lg-1 container-fluid d-flex m-0 p-0 mb-2 mb-md-0 mb-lg-0'>
                                         <Link 
                                             to='' 
                                             className='btn btn-outline-litle-green text-litle-green link-white shadow fs-4 border-0 rounded-circle text-success link-light'
@@ -58,7 +58,7 @@ export const Section2Contact = () => {
 
                             <div className="col-12 my-4">
                                 <div className="row d-flex flex-column flex-md-row flex-lg-row align-items-center">
-                                    <div className='col-1 container-fluid d-flex m-0 p-0 mb-2 mb-md-0 mb-lg-0'>
+                                    <div className='col-2 col-md-1 col-lg-1 container-fluid d-flex m-0 p-0 mb-2 mb-md-0 mb-lg-0'>
                                         <Link 
                                             to='' 
                                             className='btn btn-outline-litle-green text-litle-green link-white shadow fs-4 border-0 rounded-circle text-success link-light'
